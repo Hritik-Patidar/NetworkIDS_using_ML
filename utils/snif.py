@@ -16,7 +16,7 @@ from scapy.all import sniff, IP, TCP, UDP, ICMP
 
 # ----------------- Config -----------------
 MODEL_PATH = "nids_scapy_model.pkl"
-WINDOW_SECONDS = 120
+WINDOW_SECONDS = 130
 MAX_FLOW_HISTORY = 1000
 
 # Columns used by trained model
